@@ -56,3 +56,33 @@ const player = {
 player.sayHi(); // Hi!
 player.sayWelcome(); // Welcome PPanyana!
 player.sayBye("Banana"); // Bye, Banana!
+
+const calculator = { // 파라미터 값으로 동작을 수행하고 다시 데이터를 리턴
+    plus: function (a,b){
+        return a + b;
+    },
+    minus: function (a,b){
+        return a - b;
+    },
+    times: function (a,b){
+        return a * b;
+    },
+    divide: function(a,b){
+        return a / b;
+    },
+    power: function(a,b){
+        return a ** b;
+    }
+}
+
+let result;
+result = calculator.plus(4, 2); // 6
+console.log(result);
+result = calculator.minus(4, 2); // 2
+console.log(result);
+result = calculator.times(4, 2); // 8
+console.log(result);
+result = calculator.divide(4, 2); // 2
+console.log(result);
+result = calculator.power(4, 2); // 16
+console.log(result);
