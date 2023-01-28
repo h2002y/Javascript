@@ -6,6 +6,7 @@
  * undefined와 null도 타입이다
  * null은 절대로 자연발생하지 않는다
  * null은 값이 비어있음(의도적), undefined는 값이 주어지지 않음(의도적X)
+ * NaN은 Not a Number로 숫자가 아님을 의미
 */
 
 const a1 = 5; // => number - double, 상수, 초기화 후 값 변경 불가
